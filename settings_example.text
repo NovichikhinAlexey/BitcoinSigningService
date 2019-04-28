@@ -1,0 +1,37 @@
+{
+  "SigningService": {
+    "Db": {
+      "AzureConnectionString": "...",
+      "LogsConnectionString": "..."
+    },
+    "BitcoinRpc": {
+      "ServerAddress": "...",
+      "Username": "bitcoinrpc",
+      "Password": "Hasht"
+    },
+    "BccRpc": {
+      "ServerAddress": "...",
+      "Username": "bitcoinrpc",
+      "Password": "!Lykke.2"
+    },
+    "BitcoinNetworkType": "test",
+    "ApiKeys": [
+      {
+        "ApiKey": "default",
+        "Permissions": [
+          "BitcoinSign",
+          "BitcoinGenerateKey",
+          "BitcoinAddKey",
+          "BitcoinGetKey",
+          "BitcoinGetNextAddress",
+          "BitcoinGetAllWallets",
+          "BitcoinCashSign",
+          "EthereumGenerateKey",
+          "EthereumAddKey",
+          "EthereumSign",
+          "EthereumSignHash"
+        ]
+      }   
+    ]  
+  }
+}
