@@ -1,0 +1,27 @@
+SigningService:
+  Db:
+    AzureConnectionString: 
+      settings-key: SigningService-DataConnString
+      types: [ AzureTableStorage ]
+    LogsConnectionString: 
+      settings-key: SigningService-LogsConnectionString
+      types: [ AzureTableStorage ]
+  BitcoinRpc:
+    ServerAddress:
+      settings-key: SigningService-BitcoinRpc-ServerAddress
+    Username:
+      settings-key: SigningService-BitcoinRpc-Username
+    Password:
+      settings-key: SigningService-BitcoinRpc-Password
+  BccRpc:
+    ServerAddress:
+      settings-key: SigningService-BccRpc-ServerAddress
+    Username:
+      settings-key: SigningService-BccRpc-Username
+    Password:
+      settings-key: SigningService-BccRpc-Password
+  BitcoinNetworkType: 
+    settings-key: SigningService-BitcoinNetworkType
+  ApiKeys": 
+    settings-key: ApiKeys
+    type: JsonArray
