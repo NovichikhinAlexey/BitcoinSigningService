@@ -22,6 +22,6 @@ SigningService:
       settings-key: SigningService-BccRpc-Password
   BitcoinNetworkType: 
     settings-key: SigningService-BitcoinNetworkType
-  ApiKeys": 
+  ApiKeys: 
     settings-key: SigningService-ApiKeys
     type: JsonArray
