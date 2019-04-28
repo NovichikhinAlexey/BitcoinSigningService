@@ -24,4 +24,5 @@ SigningService:
     settings-key: SigningService-BitcoinNetworkType
   ApiKeys: 
     settings-key: SigningService-ApiKeys
-    type: JsonArray
+    types:
+    - JsonArray
