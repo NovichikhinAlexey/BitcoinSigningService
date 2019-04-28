@@ -1,0 +1,14 @@
+CallbackService:
+  Db:
+    LogsConnString: 
+      settings-key: CallbackService-LogsConnString
+      types: [ AzureTableStorage ]
+    ClientPersonalInfoConnString:
+      settings-key: CallbackService-ClientPersonalInfoConnString
+      types: [ AzureTableStorage ]
+    BitCoinQueueConnectionString:
+      settings-key: CallbackService-BitCoinQueueConnectionString
+      types: [ AzureTableStorage ]
+    HTradesConnString:
+      settings-key: CallbackService-HTradesConnString
+      types: [ AzureTableStorage ]
